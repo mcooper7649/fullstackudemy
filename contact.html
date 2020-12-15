@@ -6,12 +6,20 @@
     <title>Contact Information</title>
 </head>
 <body>
-    <h1>Contact Me</h1>
-    <ol>
-        <li>Email: Mcooper@gmail.com</li>
-        <li>Phone: (702)-480-7649</li> 
-        <li>LinkidIn: Mcooper7649</li> 
-    </ol>
+    <h1>My Contact Details</h1>
+    <p>Miami, Florida</p>
+    <p>702-480-7649</p>
+    <p>mcooper7649@gmail.com</p>
+
+    <form action="mailto:mcooper7649@gmail.com" method="post" enctype="text/plain">
+        <label for="Your Name">Your Name:</label>
+        <input type="text" name="yourName"><br>
+        <label for="Your Email">Your Email:</label>
+        <input type="email" name="yourEmail" id=""><br>
+        <label for="MessageBox">Your Message:</label><br>
+        <textarea name="yourMessage" id="MessageBox" cols="30" rows="10"></textarea><br>
+        <input type="submit">
+    </form>
     
 </body>
 </html>
